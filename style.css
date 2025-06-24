@@ -21,3 +21,20 @@ body{
 .calendar{
   text-align:center;
 }
+
+div{
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+button{
+  border-radius: 20%;
+  color: white;
+  background-color: black;
+}
+
+button:hover{
+  background-color: #0000ff;
+  color: white;
+}

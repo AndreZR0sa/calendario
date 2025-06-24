@@ -27,10 +27,10 @@ const clearButton = document.getElementById('clear');
             const cellDay = parseInt(cell.textContent);
             
             if (cellDay === dia1 || cellDay === dia2) {
-              cell.style.backgroundColor = '#A6BC09';
+              cell.style.backgroundColor = '#E83E36';
               
             } else if (cellDay > dia1 && cellDay < dia2) {
-              cell.style.backgroundColor = '#019587';
+              cell.style.backgroundColor = '#6273FF';
             }
           });
         }
